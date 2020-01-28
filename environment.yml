@@ -1,0 +1,39 @@
+name: kaggle
+
+channels:
+
+  - conda-forge
+
+  - defaults
+
+dependencies:
+
+  - python=3.7
+
+  # Core scientific python
+
+  - numpy
+
+  - matplotlib
+  
+  - pandas
+  
+  - scikit-learn
+  
+  - scipy
+  
+  - mlxtend
+
+  - seaborn
+
+  - tqdm
+
+  - kiwisolver
+  
+  - spyder=3.2.8=py36_0
+
+  # Natural language processing
+
+  - nltk
+
+  - notebook
